@@ -1,7 +1,7 @@
 <script lang="ts">
 	import InputLabel from './inputLabel.svelte';
 
-	export let icon: boolean = true;
+	export let icon: boolean = false;
 	export let iconColor: string = '';
 	export let iconBackground: string = '';
 	export let type: 'primary' | 'secondary' = 'primary';
@@ -31,13 +31,13 @@
 		line-height: 1.3;
 		text-decoration: none;
 		text-align: center;
-		padding: calc(11px - 0.1ex) 28px calc(11px + 0.1ex);
 		width: 100%;
 		height: 2.6rem;
 		background: rgb(17, 17, 17);
 		color: white;
         transition: filter .1s;
-
+        padding: calc(11px - 0.1ex) 28px calc(11px + 0.1ex);
+        
         &:hover {
             filter: brightness(80%);
         }
