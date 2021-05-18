@@ -16,10 +16,11 @@
 		flex-direction: column;
 		justify-content: center;
 		margin: 1.4rem auto;
+		width: 100%;
 
-        &.no-text {
-            margin: .4rem auto;
-        }
+		&.no-text {
+			margin: 0.4rem auto;
+		}
 
 		span {
 			font-size: 0.875rem;

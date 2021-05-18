@@ -4,7 +4,7 @@
 </script>
 
 <InputLabel {key} {label}>
-	<input id={key} type="password" bind:value />
+	<input id={key} type="text" bind:value />
 </InputLabel>
 
 <style lang="scss">

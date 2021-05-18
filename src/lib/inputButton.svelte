@@ -1,10 +1,10 @@
 <script lang="ts">
-	import InputLabel from './inputLabel.svelte';
+	import InputLabel from "./inputLabel.svelte";
 
 	export let icon: boolean = false;
-	export let iconColor: string = '';
-	export let iconBackground: string = '';
-	export let type: 'primary' | 'secondary' = 'primary';
+	export let iconColor: string = "";
+	export let iconBackground: string = "";
+	export let type: "primary" | "secondary" = "primary";
 </script>
 
 <InputLabel text={false}>
@@ -35,12 +35,12 @@
 		height: 2.6rem;
 		background: rgb(17, 17, 17);
 		color: white;
-        transition: filter .1s;
-        padding: calc(11px - 0.1ex) 28px calc(11px + 0.1ex);
-        
-        &:hover {
-            filter: brightness(80%);
-        }
+		transition: filter 0.1s;
+		padding: calc(11px - 0.1ex) 28px calc(11px + 0.1ex);
+
+		&:hover {
+			filter: brightness(80%);
+		}
 
 		&.primary {
 			background: rgb(17, 17, 17);
@@ -65,13 +65,13 @@
 			left: 0px;
 			width: 2.6rem;
 			height: 100%;
-            border-top-left-radius: 4px;
-            border-bottom-left-radius: 4px;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
 
-            :global(svg) {
-                width: 1.3rem;
-                height: 2.6rem;
-            }
+			:global(svg) {
+				width: 1.3rem;
+				height: 2.6rem;
+			}
 		}
 	}
 </style>

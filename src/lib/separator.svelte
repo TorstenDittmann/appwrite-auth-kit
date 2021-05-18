@@ -5,13 +5,13 @@
 		display: flex;
 		align-items: center;
 		text-align: center;
-        width: 100%;
-        font-size: 1.25rem;
-        margin-top: 1.4rem;
+		width: 100%;
+		font-size: 1.25rem;
+		margin-top: 1.4rem;
 
 		&:before,
 		&:after {
-			content: '';
+			content: "";
 			flex: 1;
 			border-bottom: 1px solid lightgray;
 		}

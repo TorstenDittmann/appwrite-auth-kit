@@ -1,12 +1,15 @@
 <script lang="ts">
-import InputButton from "$lib/inputButton.svelte";
-
-import InputPassword from "$lib/inputPassword.svelte";
-import Separator from "$lib/separator.svelte";
+	import Hint from "$lib/hint.svelte";
+	import InputButton from "$lib/inputButton.svelte";
+	import InputEmail from "$lib/inputEmail.svelte";
+	import Paragraph from "$lib/Paragraph.svelte";
 </script>
 
 <h1>Password Recovery</h1>
+<Paragraph
+	>Enter your username or email address and we will send you a link to reset your password.</Paragraph
+>
 
-<InputPassword key="password" label="Password" />
-<InputPassword key="password-again" label="Repeat Password" />
-<InputButton>Save</InputButton>
+<InputEmail key="email" label="E-Mail" />
+<InputButton>Forgot Password</InputButton>
+<Hint><a href="/login">Back to login</a></Hint>
