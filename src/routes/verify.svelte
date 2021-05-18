@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Paragraph from "$lib/Paragraph.svelte";
+	import Paragraph from "$lib/paragraph.svelte";
 	import { CheckCircleIcon } from "svelte-feather-icons";
 </script>
 

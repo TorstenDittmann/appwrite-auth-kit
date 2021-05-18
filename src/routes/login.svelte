@@ -6,7 +6,7 @@
 	import InputPassword from "$lib/inputPassword.svelte";
 	import Separator from "$lib/separator.svelte";
 	import Hint from "$lib/hint.svelte";
-	import Paragraph from "$lib/Paragraph.svelte";
+	import Paragraph from "$lib/paragraph.svelte";
 </script>
 
 <InputButton type="secondary" icon={true} iconBackground="#FAFAFA" iconColor="#333333">

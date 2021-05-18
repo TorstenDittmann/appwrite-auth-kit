@@ -2,7 +2,7 @@
 	import Hint from "$lib/hint.svelte";
 	import InputButton from "$lib/inputButton.svelte";
 	import InputEmail from "$lib/inputEmail.svelte";
-	import Paragraph from "$lib/Paragraph.svelte";
+	import Paragraph from "$lib/paragraph.svelte";
 </script>
 
 <h1>Password Recovery</h1>

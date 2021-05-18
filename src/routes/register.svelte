@@ -2,7 +2,7 @@
 	import InputButton from "$lib/inputButton.svelte";
 	import InputEmail from "$lib/inputEmail.svelte";
 	import InputPassword from "$lib/inputPassword.svelte";
-	import Paragraph from "$lib/Paragraph.svelte";
+	import Paragraph from "$lib/paragraph.svelte";
 </script>
 
 <Paragraph>Already have an account? <a href="/login">Click here to login</a></Paragraph>
